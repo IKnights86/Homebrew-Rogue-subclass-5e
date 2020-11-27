@@ -206,6 +206,14 @@ AddSubClass( // this is the function you will be calling to add the variant
                 minlevel : 9,
                 description : "\n   " + "Your specialty weapon attacks count as magical for the purposes of overcoming resistance.",
             },
+	    "subclassfeature9.2" : {
+		name : "Scholar of Skills",
+		source : ["HB", 0],
+		minlevel : 9,
+		description : "\n   " + "I can add half my proficiency bonus to any ability check that doesn't already include it",
+		eval : function() { Checkbox('Jack of All Trades', true); },
+		removeeval : function() { Checkbox('Jack of All Trades', false); }
+	    },
             "subclassfeature13" : {
                 name : "Keen Technique",
                 source : ["HB", 0],
