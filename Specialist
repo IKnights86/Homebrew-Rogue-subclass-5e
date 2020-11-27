@@ -227,7 +227,7 @@ AddSubClass( // this is the function you will be calling to add the variant
                 name : "Eye for Weakness",
                 source : ["HB", 0],
                 minlevel : 17,
-                description : "\n   " + "Once per long rest you may add a number of d6 equal to your proficiency modifier to your" + "\n   " + "sneak attack with your specialty weapon. This ability does not stack with the other" + "\n   " +  "seventeenth level ability",
+                description : "\n   " + "You may add a number of d6 equal to your proficiency modifier to your sneak attack with" + "\n   " + "your specialty weapon. This ability does not stack with the other seventeenth level ability",
                 recovery : "long rest",
                 usages : 1,
             },
