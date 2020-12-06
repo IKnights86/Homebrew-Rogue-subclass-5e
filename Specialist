@@ -201,11 +201,14 @@ AddSubClass( // this is the function you will be calling to add the variant
                 description : "\n   " + "Choose a ranged weapon for your character to become a specialist with",
             },
             "subclassfeature9.1" : {
-                name : "Penetration",
+                name : "Honed Technique",
                 source : ["HB", 0],
                 minlevel : 9,
-                description : "\n   " + "Your specialty weapon attacks count as magical for the purposes of overcoming resistance",
-            },
+                description : "\n   " + "You may add your proficiency bonus to any skill check that you aren't an expertise in",
+            	recovery : "long rest",
+                usages : "Intelligence modifier per ",
+				usagescalc : "event.value = Math.max(1, What('Int Mod'));",
+	    },
 	    "subclassfeature9.2" : {
 		name : "Scholar of Skills",
 		source : ["HB", 0],
