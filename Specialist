@@ -40,7 +40,7 @@ AddSubClass( // this is the function you will be calling to add the variant
             "subclassfeature3" : {
                 name : "Superior Training",
                 source : ["HB", 0],
-                minlevel : 1,
+                minlevel : 3,
                 description : "\n   " + "I gain proficiency or expertise in 2 more skills",
                 skillstxt : "Expertise or proficiency with any two skills and/or thieves' tools",
                 additional : levels.map(function (n) {
